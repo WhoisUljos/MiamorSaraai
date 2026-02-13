@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Amor - 13 de Febrero</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #ffb6d9 0%, #ffc0e3 50%, #ffe4f0 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Georgia', serif;
+            padding: 20px;
+        }
+
+        .contenedor {
+            position: relative;
+            max-width: 650px;
+        }
+
+        .flores-top {
+            text-align: center;
+            font-size: 40px;
+            margin-bottom: 20px;
+            animation: flotar 3s ease-in-out infinite;
+        }
+
+        .carta {
+            background: linear-gradient(to bottom, #fff5f9, #fffbfd);
+            max-width: 600px;
+            padding: 60px 50px;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(255, 105, 180, 0.25);
+            border: 3px solid #ffb6d9;
+            position: relative;
+        }
+
+        .carta::before {
+            content: "💌";
+            position: absolute;
+            top: -35px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 70px;
+        }
+
+        .esquina-flor {
+            position: absolute;
+            font-size: 35px;
+            opacity: 0.7;
+        }
+
+        .esquina-flor.arriba-izq {
+            top: 15px;
+            left: 15px;
+        }
+
+        .esquina-flor.arriba-der {
+            top: 15px;
+            right: 15px;
+        }
+
+        .esquina-flor.abajo-izq {
+            bottom: 15px;
+            left: 15px;
+        }
+
+        .esquina-flor.abajo-der {
+            bottom: 15px;
+            right: 15px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ff1493;
+            margin-bottom: 10px;
+            font-size: 32px;
+            text-shadow: 1px 1px 2px rgba(255, 105, 180, 0.1);
+        }
+
+        .decoracion-titulo {
+            text-align: center;
+            color: #ffb6d9;
+            font-size: 18px;
+            margin-bottom: 20px;
+            letter-spacing: 3px;
+        }
+
+        .saludo {
+            font-size: 18px;
+            color: #c2185b;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.9;
+            color: #555;
+            margin-bottom: 22px;
+            text-align: justify;
+        }
+
+        .firma {
+            text-align: center;
+            margin-top: 45px;
+            padding-top: 25px;
+            border-top: 2px solid #ffb6d9;
+        }
+
+        .nombre-firma {
+            font-weight: bold;
+            color: #ff1493;
+            font-size: 20px;
+            margin-top: 12px;
+            font-family: 'Brush Script MT', cursive;
+        }
+
+        .corazon {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 18px;
+            font-size: 28px;
+            animation: latir 1.5s ease-in-out infinite;
+        }
+
+        .fecha {
+            text-align: center;
+            color: #ff69b4;
+            font-size: 14px;
+            margin-bottom: 30px;
+            font-style: italic;
+            font-weight: 500;
+        }
+
+        .linea-decorativa {
+            text-align: center;
+            color: #ffb6d9;
+            font-size: 16px;
+            margin: 25px 0;
+            letter-spacing: 5px;
+        }
+
+        @keyframes flotar {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-15px);
+            }
+        }
+
+        @keyframes latir {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+        }
+
+        .flores-bottom {
+            text-align: center;
+            font-size: 40px;
+            margin-top: 20px;
+            animation: flotar 3s ease-in-out infinite 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="flores-top">🌹 🌸 🌹</div>
+
+        <div class="carta">
+            <div class="esquina-flor arriba-izq">🌸</div>
+            <div class="esquina-flor arriba-der">🌹</div>
+
+            <h1>Mi Amor</h1>
+            <div class="decoracion-titulo">✿ ✿ ✿</div>
+            <p class="fecha">13 de Febrero de 2026</p>
+
+            <p class="saludo">Mi amor,</p>
+
+            <p>
+                En este 13 de febrero, quiero aprovechar para decirte lo que siento cada día a tu lado. 
+                No necesito de fechas especiales para amarte, pero sí para recordarte cuán especial eres en mi vida.
+            </p>
+
+            <div class="linea-decorativa">✦ ✦ ✦</div>
+
+            <p>
+                Desde que estás conmigo soy la persona más feliz del mundo.
+                No tengo palabras para expresar lo que siento por ti.
+            </p>
+
+            <p>
+                Lo único que deseo es estar contigo toda mi vida, amarte cada día más y demostrarte que eres la mejor decisión que he tomado.
+            </p>
+
+            <p>
+                Te amo mucho, mucho, mucho… y en verdad no tienes idea de cuánto me encantas y lo feliz que me haces.
+            </p>
+
+            <p>
+                Te amo profundamente. Hoy y siempre.
+            </p>
+
+            <div class="linea-decorativa">✦ ✦ ✦</div>
+
+            <div class="firma">
+                <p>Con todo mi amor,</p>
+                <p class="nombre-firma"></p>
+                <div class="corazon">
+                    <span>💗</span>
+                    <span>🌹</span>
+                    <span>💗</span>
+                </div>
+            </div>
+
+            <div class="esquina-flor abajo-izq">🌹</div>
+            <div class="esquina-flor abajo-der">🌸</div>
+        </div>
+
+        <div class="flores-bottom">🌸 🌹 🌸</div>
+    </div>
+</body>
+</html>
